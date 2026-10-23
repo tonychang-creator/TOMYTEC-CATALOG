@@ -973,7 +973,8 @@
     "name": "LV-N フェラーリ F512 M（黄） / Ferrari F512 M（Yellow）",
     "releaseDate": "2025年8月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736331032&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1997"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1997",
+    "collectionStatus": "owned"
   },
   {
     "series": "Other",
@@ -1014,7 +1015,8 @@
     "name": "LV-N NISSAN GT-R Premium edition T-spec 2024 model TLV出荷累計1000万台記念品",
     "releaseDate": "2026年2月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336532&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2055"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2055",
+    "collectionStatus": "owned"
   },
   {
     "series": "Other",
@@ -1102,7 +1104,8 @@
     "name": "LV-N 荻窪魂Vol.11 日産 スカイライン ハードトップ 2000GT-R（銀）1972年式",
     "releaseDate": "2026年10月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336501&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2136"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2136",
+    "collectionStatus": "planned"
   },
   {
     "series": "Other",
@@ -1118,7 +1121,8 @@
     "name": "LV-N ランボルギーニ ディアブロ SE30（緑） / LV-N Lamborghini Diablo SE30（Green）",
     "releaseDate": "2026年12月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339496&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2154"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2154",
+    "collectionStatus": "planned"
   },
   {
     "series": "Other",
@@ -1126,7 +1130,8 @@
     "name": "LV-N ランボルギーニ ディアブロ SE30イオタ（黄） / LV-N Lamborghini Diablo SE30 Jota（Yellow）",
     "releaseDate": "2026年12月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339519&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2155"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2155",
+    "collectionStatus": "planned"
   },
   {
     "series": "Other",
@@ -9206,7 +9211,8 @@
     "name": "ホンダ S2000 TypeV 2006年式（暗赤）",
     "releaseDate": "2025年8月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736335450&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1992"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1992",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10534,7 +10540,8 @@
     "name": "トヨタ RAV4L V（水色／グレー）95年式",
     "releaseDate": "2025年12月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336204&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2044"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2044",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10550,7 +10557,8 @@
     "name": "トヨタ RAV4J V（緑／グレー）95年式",
     "releaseDate": "2026年5月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736338963&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2076"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2076",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10574,7 +10582,8 @@
     "name": "トヨタ クラウンエステート アスリートV（黒）2001年式",
     "releaseDate": "2026年1月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736333319&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2052"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2052",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10662,7 +10671,8 @@
     "name": "レクサス LFA（白）",
     "releaseDate": "2026年4月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736337843&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2071"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2071",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10670,7 +10680,8 @@
     "name": "レクサス LFA（黄）",
     "releaseDate": "2027年1月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339717&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2168"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2168",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10870,7 +10881,8 @@
     "name": "三菱 ランサー エボリューション IX GSR（黄）2005年式",
     "releaseDate": "2026年9月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340133&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2124"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2124",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10942,7 +10954,8 @@
     "name": "トヨタ ランドクルーザー40（黄色）",
     "releaseDate": "2026年11月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340164&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2144"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2144",
+    "collectionStatus": "planned"
   },
   {
     "series": "TLV NEO",

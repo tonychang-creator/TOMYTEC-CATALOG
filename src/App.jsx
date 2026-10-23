@@ -6,6 +6,8 @@ const tabs = [
   { id: 'TLV', label: 'TLV' },
   { id: 'TLV NEO', label: 'TLV-NEO' },
   { id: 'Other', label: '其他' },
+  { id: 'owned', label: '已擁有' },
+  { id: 'planned', label: '預計購買' },
 ]
 
 const yearOf = (releaseDate) => releaseDate?.match(/^\d{4}/)?.[0] ?? ''
@@ -83,7 +85,10 @@ export default function App() {
     const term = query.trim().toLocaleLowerCase()
     return catalog
       .filter((product) => {
-        const matchesTab = activeTab === 'all' || product.series === activeTab
+        const matchesTab = activeTab === 'all'
+          || product.series === activeTab
+          || (activeTab === 'owned' && validStatus(product.collectionStatus) === 'owned')
+          || (activeTab === 'planned' && validStatus(product.collectionStatus) === 'planned')
         const matchesYear = year === 'all' || yearOf(product.releaseDate) === year
         const haystack = `${product.modelNumber} ${product.name}`.toLocaleLowerCase()
         return matchesTab && matchesYear && (!term || haystack.includes(term))
