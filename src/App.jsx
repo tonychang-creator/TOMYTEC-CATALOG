@@ -10,6 +10,11 @@ const tabs = [
 const yearOf = (releaseDate) => releaseDate?.match(/^\d{4}/)?.[0] ?? ''
 const PAGE_SIZE = 20
 
+const releaseTimestamp = (releaseDate) => {
+  const match = releaseDate?.match(/^(\d{4})年(\d{1,2})月$/)
+  return match ? Date.UTC(Number(match[1]), Number(match[2]) - 1, 1) : -Infinity
+}
+
 function ProductCard({ product }) {
   return (
     <article className="group overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg">
@@ -54,12 +59,14 @@ export default function App() {
 
   const products = useMemo(() => {
     const term = query.trim().toLocaleLowerCase()
-    return catalog.filter((product) => {
-      const matchesTab = activeTab === 'all' || product.series === activeTab
-      const matchesYear = year === 'all' || yearOf(product.releaseDate) === year
-      const haystack = `${product.modelNumber} ${product.name}`.toLocaleLowerCase()
-      return matchesTab && matchesYear && (!term || haystack.includes(term))
-    })
+    return catalog
+      .filter((product) => {
+        const matchesTab = activeTab === 'all' || product.series === activeTab
+        const matchesYear = year === 'all' || yearOf(product.releaseDate) === year
+        const haystack = `${product.modelNumber} ${product.name}`.toLocaleLowerCase()
+        return matchesTab && matchesYear && (!term || haystack.includes(term))
+      })
+      .sort((a, b) => releaseTimestamp(b.releaseDate) - releaseTimestamp(a.releaseDate))
   }, [activeTab, query, year])
 
   // A new filter/search result should always start at the first 20 cards.
