@@ -9,13 +9,11 @@ const tabs = [
 
 const yearOf = (releaseDate) => releaseDate?.match(/^\d{4}/)?.[0] ?? ''
 const PAGE_SIZE = 20
-const COLLECTION_STORAGE_KEY = 'tomica-collection-statuses'
 const collectionStatuses = {
-  owned: { label: '已擁有', badge: 'bg-emerald-600', button: 'border-emerald-600 bg-emerald-50 text-emerald-800' },
-  planned: { label: '預計購買', badge: 'bg-amber-500', button: 'border-amber-500 bg-amber-50 text-amber-800' },
+  owned: { label: '已擁有', badge: 'bg-emerald-600' },
+  planned: { label: '預計購買', badge: 'bg-amber-500' },
 }
 
-const productKey = (product) => product.imageUrl || `${product.series}|${product.modelNumber}|${product.name}`
 const validStatus = (value) => (value === 'owned' || value === 'planned' ? value : null)
 
 const releaseTimestamp = (releaseDate) => {
@@ -23,7 +21,8 @@ const releaseTimestamp = (releaseDate) => {
   return match ? Date.UTC(Number(match[1]), Number(match[2]) - 1, 1) : -Infinity
 }
 
-function ProductCard({ product, collectionStatus, onStatusChange }) {
+function ProductCard({ product }) {
+  const collectionStatus = validStatus(product.collectionStatus)
   const status = collectionStatuses[collectionStatus]
   return (
     <article className={`group overflow-hidden rounded-2xl border bg-white shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg ${
@@ -57,21 +56,6 @@ function ProductCard({ product, collectionStatus, onStatusChange }) {
             {status.label}
           </span>
         )}
-        <div className="grid grid-cols-2 gap-2 pt-1">
-          {Object.entries(collectionStatuses).map(([id, option]) => (
-            <button
-              key={id}
-              type="button"
-              aria-pressed={collectionStatus === id}
-              onClick={() => onStatusChange(collectionStatus === id ? null : id)}
-              className={`rounded-lg border px-2 py-2 text-xs font-bold transition focus:outline-none focus:ring-2 focus:ring-offset-1 ${
-                collectionStatus === id ? option.button : 'border-stone-200 bg-white text-stone-500 hover:border-stone-400'
-              }`}
-            >
-              {id === 'owned' ? '✓ ' : '☆ '}{option.label}
-            </button>
-          ))}
-        </div>
       </div>
     </article>
   )
@@ -82,26 +66,6 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('all')
   const [year, setYear] = useState('all')
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
-  const [statusOverrides, setStatusOverrides] = useState(() => {
-    try {
-      return JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY) || '{}')
-    } catch {
-      return {}
-    }
-  })
-
-  useEffect(() => {
-    localStorage.setItem(COLLECTION_STORAGE_KEY, JSON.stringify(statusOverrides))
-  }, [statusOverrides])
-
-  const statusFor = (product) => {
-    const key = productKey(product)
-    return Object.hasOwn(statusOverrides, key) ? statusOverrides[key] : validStatus(product.collectionStatus)
-  }
-
-  const setCollectionStatus = (product, status) => {
-    setStatusOverrides((current) => ({ ...current, [productKey(product)]: status }))
-  }
 
   const years = useMemo(
     () => [...new Set(catalog.map((product) => yearOf(product.releaseDate)).filter(Boolean))].sort((a, b) => b.localeCompare(a)),
@@ -193,8 +157,6 @@ export default function App() {
                 <ProductCard
                   key={`${product.series}-${product.modelNumber}-${product.name}-${index}`}
                   product={product}
-                  collectionStatus={statusFor(product)}
-                  onStatusChange={(status) => setCollectionStatus(product, status)}
                 />
               ))}
             </div>
