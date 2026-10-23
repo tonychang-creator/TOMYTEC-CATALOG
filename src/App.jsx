@@ -5,6 +5,7 @@ const tabs = [
   { id: 'all', label: '全部' },
   { id: 'TLV', label: 'TLV' },
   { id: 'TLV NEO', label: 'TLV-NEO' },
+  { id: 'Other', label: '其他' },
 ]
 
 const yearOf = (releaseDate) => releaseDate?.match(/^\d{4}/)?.[0] ?? ''
@@ -24,10 +25,14 @@ const releaseTimestamp = (releaseDate) => {
 function ProductCard({ product }) {
   const collectionStatus = validStatus(product.collectionStatus)
   const status = collectionStatuses[collectionStatus]
+  const CardElement = product.productUrl ? 'a' : 'article'
   return (
-    <article className={`group overflow-hidden rounded-2xl border bg-white shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg ${
+    <CardElement
+      {...(product.productUrl ? { href: product.productUrl, target: '_blank', rel: 'noreferrer', title: '在 Tomytec 官方網站查看產品詳情' } : {})}
+      className={`group block overflow-hidden rounded-2xl border bg-white shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg ${
       collectionStatus === 'owned' ? 'border-emerald-400 ring-1 ring-emerald-100' : collectionStatus === 'planned' ? 'border-amber-400 ring-1 ring-amber-100' : 'border-stone-200'
-    }`}>
+    }`}
+    >
       <div className="aspect-square overflow-hidden bg-stone-100">
         {product.imageUrl ? (
           <img
@@ -56,8 +61,9 @@ function ProductCard({ product }) {
             {status.label}
           </span>
         )}
+        {product.productUrl && <p className="text-xs font-bold text-red-700">查看官方詳情 ↗</p>}
       </div>
-    </article>
+    </CardElement>
   )
 }
 
@@ -65,6 +71,7 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [activeTab, setActiveTab] = useState('all')
   const [year, setYear] = useState('all')
+  const [sortOrder, setSortOrder] = useState('newest')
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
   const years = useMemo(
@@ -81,13 +88,15 @@ export default function App() {
         const haystack = `${product.modelNumber} ${product.name}`.toLocaleLowerCase()
         return matchesTab && matchesYear && (!term || haystack.includes(term))
       })
-      .sort((a, b) => releaseTimestamp(b.releaseDate) - releaseTimestamp(a.releaseDate))
-  }, [activeTab, query, year])
+      .sort((a, b) => sortOrder === 'newest'
+        ? releaseTimestamp(b.releaseDate) - releaseTimestamp(a.releaseDate)
+        : releaseTimestamp(a.releaseDate) - releaseTimestamp(b.releaseDate))
+  }, [activeTab, query, sortOrder, year])
 
   // A new filter/search result should always start at the first 20 cards.
   useEffect(() => {
     setVisibleCount(PAGE_SIZE)
-  }, [activeTab, query, year])
+  }, [activeTab, query, sortOrder, year])
 
   const visibleProducts = products.slice(0, visibleCount)
   const hasMore = visibleProducts.length < products.length
@@ -121,7 +130,7 @@ export default function App() {
             ))}
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-[1fr_11rem]">
+          <div className="grid gap-3 sm:grid-cols-[1fr_11rem_11rem]">
             <label className="relative block">
               <span className="sr-only">搜尋型號或名稱</span>
               <input
@@ -141,6 +150,16 @@ export default function App() {
             >
               <option value="all">所有上市年份</option>
               {years.map((item) => <option key={item} value={item}>{item} 年</option>)}
+            </select>
+            <label className="sr-only" htmlFor="sort-order">上市日期排序</label>
+            <select
+              id="sort-order"
+              value={sortOrder}
+              onChange={(event) => setSortOrder(event.target.value)}
+              className="rounded-xl border border-stone-300 bg-white px-3 py-3 text-sm font-medium outline-none focus:border-red-600 focus:ring-2 focus:ring-red-100"
+            >
+              <option value="newest">上市日期：新到舊</option>
+              <option value="oldest">上市日期：舊到新</option>
             </select>
           </div>
         </div>

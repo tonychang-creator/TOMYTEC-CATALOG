@@ -131,10 +131,15 @@ def parse_product(soup: BeautifulSoup, page_url: str, fallback_series: str) -> d
         "name": name,
         "releaseDate": release_date,
         "imageUrl": first_image_url(soup, page_url),
+        "productUrl": page_url,
     }
 
 
-def collect(client: PoliteClient, max_pages_per_series: int | None = None) -> list[dict]:
+def collect(
+    client: PoliteClient,
+    max_pages_per_series: int | None = None,
+    known_product_urls: set[str] | None = None,
+) -> list[dict]:
     details: dict[str, str] = {}
     for series, config in SERIES.items():
         print(f"Reading lineup: {config['lineupUrl']}", file=sys.stderr)
@@ -168,9 +173,17 @@ def collect(client: PoliteClient, max_pages_per_series: int | None = None) -> li
             "The API response format may have changed; inspect product/api/search.php."
         )
 
+    unknown_details = {
+        detail_url: series
+        for detail_url, series in details.items()
+        if detail_url not in (known_product_urls or set())
+    }
+    if known_product_urls is not None:
+        print(f"Skipping {len(details) - len(unknown_details)} existing products", file=sys.stderr)
+
     products = []
-    for index, (detail_url, series) in enumerate(sorted(details.items()), start=1):
-        print(f"[{index}/{len(details)}] Reading product: {detail_url}", file=sys.stderr)
+    for index, (detail_url, series) in enumerate(sorted(unknown_details.items()), start=1):
+        print(f"[{index}/{len(unknown_details)}] Reading product: {detail_url}", file=sys.stderr)
         soup = BeautifulSoup(client.get(detail_url).text, "html.parser")
         product = parse_product(soup, detail_url, series)
         if product:
@@ -208,6 +221,16 @@ def preserve_collection_statuses(products: list[dict], output_path: Path) -> lis
     return products
 
 
+def load_existing_products(output_path: Path) -> list[dict]:
+    if not output_path.exists():
+        return []
+    try:
+        data = json.loads(output_path.read_text(encoding="utf-8"))
+        return [item for item in data if isinstance(item, dict)] if isinstance(data, list) else []
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--delay", type=float, default=1.5, help="seconds between requests (default: 1.5)")
@@ -216,13 +239,27 @@ def main() -> None:
         "--max-pages-per-series", type=int,
         help="test only: limit each series' search-result pages (omit for all pages)",
     )
+    parser.add_argument(
+        "--incremental", action="store_true",
+        help="only fetch products whose productUrl is not already in the output JSON",
+    )
     args = parser.parse_args()
     if args.delay < 0.5:
         parser.error("--delay must be at least 0.5 seconds")
     if args.max_pages_per_series is not None and args.max_pages_per_series < 1:
         parser.error("--max-pages-per-series must be at least 1")
 
-    products = collect(PoliteClient(args.delay), args.max_pages_per_series)
+    existing_products = load_existing_products(args.output)
+    known_product_urls = {item.get("productUrl") for item in existing_products if item.get("productUrl")}
+    if args.incremental and existing_products and not known_product_urls:
+        parser.error("--incremental needs a prior full crawl that includes productUrl; run once without --incremental first")
+
+    new_products = collect(
+        PoliteClient(args.delay),
+        args.max_pages_per_series,
+        known_product_urls if args.incremental else None,
+    )
+    products = existing_products + new_products if args.incremental else new_products
     products = preserve_collection_statuses(products, args.output)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(products, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
