@@ -5279,7 +5279,8 @@
     "name": "トヨタ カローラ 1500SEリミテッド（白）",
     "releaseDate": "2007年10月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736213512&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=599"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=599",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -6759,7 +6760,8 @@
     "name": "ホンダ シビック タイプR 99年式（白）",
     "releaseDate": "2020年12月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736314141&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1418"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1418",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -7239,7 +7241,8 @@
     "name": "三菱 ランサー GSR エボリューションⅤ（銀）",
     "releaseDate": "2022年5月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736320258&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1595"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1595",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -7687,7 +7690,8 @@
     "name": "三菱 パジェロ ミッドルーフワイド VR（赤／ベージュ）96年式",
     "releaseDate": "2025年2月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329473&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1944"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1944",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -9208,7 +9212,8 @@
     "name": "ホンダS2000 2006年式（水色）",
     "releaseDate": "2025年7月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736335337&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1993"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1993",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -9705,7 +9710,8 @@
     "name": "NISMO 400R（紺）",
     "releaseDate": "2024年11月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736332923&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1911"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1911",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10515,7 +10521,8 @@
     "name": "日産 スカイライン 2ドアスポーツクーペ 25GT TURBO オプションパーツ付（銀）2000年式",
     "releaseDate": "2025年11月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736333876&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2034"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2034",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
