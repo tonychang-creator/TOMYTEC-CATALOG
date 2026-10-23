@@ -180,6 +180,34 @@ def collect(client: PoliteClient, max_pages_per_series: int | None = None) -> li
     return sorted(products, key=lambda item: (item["series"], item["modelNumber"].lower()))
 
 
+def product_key(product: dict) -> str:
+    """Use the stable official image URL when available to preserve annotations."""
+    return product.get("imageUrl") or "|".join(
+        (product.get("series", ""), product.get("modelNumber", ""), product.get("name", ""))
+    )
+
+
+def preserve_collection_statuses(products: list[dict], output_path: Path) -> list[dict]:
+    """Carry manually added collectionStatus values across a data refresh."""
+    if not output_path.exists():
+        return products
+    try:
+        existing = json.loads(output_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return products
+
+    statuses = {
+        product_key(item): item["collectionStatus"]
+        for item in existing
+        if isinstance(item, dict) and item.get("collectionStatus") in {"owned", "planned"}
+    }
+    for product in products:
+        status = statuses.get(product_key(product))
+        if status:
+            product["collectionStatus"] = status
+    return products
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--delay", type=float, default=1.5, help="seconds between requests (default: 1.5)")
@@ -195,6 +223,7 @@ def main() -> None:
         parser.error("--max-pages-per-series must be at least 1")
 
     products = collect(PoliteClient(args.delay), args.max_pages_per_series)
+    products = preserve_collection_statuses(products, args.output)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(products, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(products)} products to {args.output}")

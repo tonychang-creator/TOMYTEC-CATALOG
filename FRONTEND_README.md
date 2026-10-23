@@ -23,4 +23,16 @@ npm run build
 
 部署前請先在本機執行 `npm install`，並將產生的 `package-lock.json` 一併提交，讓 GitHub Actions 的 `npm ci` 能穩定安裝相同依賴版本。
 
-`src/App.jsx` 使用 `useState` 管理搜尋文字、系列頁籤、上市年份及已顯示筆數；再以 `useMemo` 即時過濾 JSON 資料。卡片圖片使用原生 `loading="lazy"` 與 `decoding="async"`，每次只建立 20 張產品卡片的 DOM；按「載入更多」才會再加入下一批 20 張。
+`src/App.jsx` 使用 `useState` 管理搜尋文字、系列頁籤、上市年份及已顯示筆數；再以 `useMemo` 即時過濾 JSON 資料，並依上市年月由新到舊排列（缺少日期的項目置底）。卡片圖片使用原生 `loading="lazy"` 與 `decoding="async"`，每次只建立 20 張產品卡片的 DOM；按「載入更多」才會再加入下一批 20 張。
+
+## 收藏標記
+
+每張卡片可直接選擇「已擁有」或「預計購買」。這個互動標記會儲存在目前裝置的瀏覽器 `localStorage`，不需要後端；同一部手機或電腦再次開啟時仍會保留。
+
+若想讓標記隨 `tomytec_data.json` 一起發布到每部裝置，可在目標物件加入：
+
+```json
+"collectionStatus": "owned"
+```
+
+可用值為 `"owned"` 和 `"planned"`。`scrape_tomytec.py` 也會依官方圖片網址保留既有的這兩種標記，避免更新爬蟲資料時遺失。
