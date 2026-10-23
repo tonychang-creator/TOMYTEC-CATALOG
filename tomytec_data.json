@@ -1123,8 +1123,7 @@
     "name": "LV-N ランボルギーニ ディアブロ SE30（緑） / LV-N Lamborghini Diablo SE30（Green）",
     "releaseDate": "2026年12月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339496&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2154",
-    "collectionStatus": "planned"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2154"
   },
   {
     "series": "Other",
@@ -8308,7 +8307,8 @@
     "name": "FETスポーツGT-R 93年仕様",
     "releaseDate": "2026年11月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339014&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2147"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2147",
+    "collectionStatus": "planned"
   },
   {
     "series": "TLV NEO",
@@ -10296,7 +10296,8 @@
     "name": "スバル インプレッサ WRX STi spec C（青）2003年式",
     "releaseDate": "2027年3月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340041&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2190"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2190",
+    "collectionStatus": "planned"
   },
   {
     "series": "TLV NEO",
@@ -11873,7 +11874,8 @@
     "name": "メルセデスベンツ 190 E（パールブルー）92年式",
     "releaseDate": "2027年1月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339847&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2172"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2172",
+    "collectionStatus": "planned"
   },
   {
     "series": "TLV NEO",
@@ -11881,7 +11883,8 @@
     "name": "メルセデスベンツ 190 E（グリーン）92年式",
     "releaseDate": "2027年1月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736341826&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2173"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2173",
+    "collectionStatus": "planned"
   },
   {
     "series": "TLV NEO",
