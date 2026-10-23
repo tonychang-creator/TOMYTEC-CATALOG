@@ -12283,5 +12283,446 @@
     "releaseDate": "2015年2月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736274889&num=1",
     "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=448"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "ジオコレ64 #カースナップ03a 初詣",
+    "releaseDate": "2020年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736312321&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1423"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-NEO 西部警察 Vol.23 マシンX",
+    "releaseDate": "2020年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736312260&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1424"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "マツダ787B 1991ル・マン No.18",
+    "releaseDate": "2018年2月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736287469&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=157"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N ランボルギーニ カウンタック LP400（赤） / LV-N Lamborghini Countach LP400（Red）",
+    "releaseDate": "2024年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329664&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1854"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N 日本車の時代18 マツダ RX-8 スピリットR（銀）2012年式",
+    "releaseDate": "2024年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329367&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1873"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N あぶない刑事 Vol.11 日産 セフィーロ スポーツクルージング",
+    "releaseDate": "2024年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329855&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1904"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "海洋堂×トミカリミテッド ヴィンテージ ジオコレ64 ＃カースナップ29a サファリ2（トヨタ ハイラックス4WDピックアップ ダブルキャブ付属）",
+    "releaseDate": "2025年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736330561&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1989"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N ランボルギーニ カウンタック LP400（黒） / LV-N Lamborghini Countach LP400（Black）",
+    "releaseDate": "2025年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329671&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1990"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N フェラーリ F512 M（黒） / Ferrari F512 M（Black）",
+    "releaseDate": "2025年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736333289&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2037"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N ランボルギーニ ディアブロ SE30（紫） / LV-N Lamborghini Diablo SE30（Purple）",
+    "releaseDate": "2026年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736335559&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2078",
+    "collectionStatus": "owned"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "日本交通タクシー 2MODELS",
+    "releaseDate": "2007年3月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736212379&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=351"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV",
+    "name": "大都会03 日産 プレジデント 大都会 PARTIII 第40話「ドクター宗方の証言」より",
+    "releaseDate": "2025年5月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736331605&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1965"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV-04a",
+    "name": "ダットサン ブルーバード1000",
+    "releaseDate": "2004年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736205517&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1094"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV-07a",
+    "name": "プリンス スカイライン",
+    "releaseDate": "2004年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736205555&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1089"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV-52a",
+    "name": "トヨペットコロナマークⅡ",
+    "releaseDate": "2007年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736213444&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1022"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV-61b",
+    "name": "Honda1300 77S",
+    "releaseDate": "2008年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736217084&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1005"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N06c",
+    "name": "スバル レガシィRS(黒)",
+    "releaseDate": "2013年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736227793&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=487"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N08c",
+    "name": "トヨタ カローラ 1500SE リミテッド（ベージュ）",
+    "releaseDate": "2020年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736312574&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1416"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N128a",
+    "name": "スカイライン 25GTターボ （銀）",
+    "releaseDate": "2016年9月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736278351&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=396"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N128b",
+    "name": "スカイライン 25GTターボ （白）",
+    "releaseDate": "2016年9月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736278368&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=395"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N135a",
+    "name": "カローラ1800SE(茶)",
+    "releaseDate": "2017年1月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736280545&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=381"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N189a",
+    "name": "パジェロ スーパーエクシードZ（銀/白）",
+    "releaseDate": "2019年9月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736302124&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1287"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N203a",
+    "name": "グロリア グランツーリスモ アルティマ タイプX（白）",
+    "releaseDate": "2020年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736307846&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1332"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N217b",
+    "name": "NISSAN GT-R NISMO 2020model（赤）",
+    "releaseDate": "2020年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736312499&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1399"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N219c",
+    "name": "トヨタ クラウンセダン タクシー（グリーンキャブ）",
+    "releaseDate": "2021年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736314585&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1480"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N220a",
+    "name": "スバル レガシィ ツーリングワゴン Ti type S（白）",
+    "releaseDate": "2020年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736312505&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1422"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N228d",
+    "name": "ホンダ NSX TypeS（モンツァレッド）98年式",
+    "releaseDate": "2026年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736338987&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2088"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N229a",
+    "name": "出光MOTION無限シビック",
+    "releaseDate": "2021年2月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736314431&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1450"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N232b",
+    "name": "トヨタ アルテッツァ RS200 Ｚエディション（黄）",
+    "releaseDate": "2021年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736315414&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1472"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N241a",
+    "name": "トヨタ チェイサー アバンテG（白/銀）",
+    "releaseDate": "2021年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736315087&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1492"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N241b",
+    "name": "トヨタ チェイサー アバンテG（銀）",
+    "releaseDate": "2021年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736315094&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1491"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N245e",
+    "name": "いすゞエルガ 日産送迎バス（イカズチイエロー/黒）",
+    "releaseDate": "2023年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736325093&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1739"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N248a",
+    "name": "ホンダNSX パトロールカー",
+    "releaseDate": "2021年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736315124&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1537"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N249e",
+    "name": "スバル サンバー ディアス クラシック（緑／クリーム）96年式",
+    "releaseDate": "2025年5月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736327936&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1972"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N255a",
+    "name": "トヨタ ハイラックス 4WDピックアップ ダブルキャブSSR（紺）95年式",
+    "releaseDate": "2022年2月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736315421&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1569"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N256a",
+    "name": "トヨタ ハイラックス 4WDピックアップ ダブルキャブSSR（赤）91年式",
+    "releaseDate": "2022年2月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736316893&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1568"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N270b",
+    "name": "日産スカイライン 2000GT（白）74年式",
+    "releaseDate": "2024年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736331629&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1872"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N275c",
+    "name": "ランチア テーマ 8.32 フェーズII（赤）",
+    "releaseDate": "2026年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340003&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2131"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N278a",
+    "name": "日産セドリック シーマ タイプIIリミテッド（グレイッシュブルー）88年式",
+    "releaseDate": "2023年3月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736320500&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1691"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N281d",
+    "name": "スバル インプレッサ ピュアスポーツワゴン WRX STi Ver.V（黒）98年式",
+    "releaseDate": "2024年3月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329039&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1824"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N298a",
+    "name": "日野プロフィア トラクタヘッド（緑）",
+    "releaseDate": "2023年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736320524&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1755"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N299b",
+    "name": "トヨタ マークII 2.5ツアラーV（濃緑／グレー）98年式",
+    "releaseDate": "2023年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736325048&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1777"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N313a",
+    "name": "日産シルビア K’s TypeS（白）94年式",
+    "releaseDate": "2024年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329435&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1856"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N313b",
+    "name": "日産シルビア Q’s TypeS（青緑）94年式",
+    "releaseDate": "2024年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329442&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1855"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N316c",
+    "name": "NISSAN GT-R Premium edition T-spec 2024 model（白）",
+    "releaseDate": "2025年2月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736333692&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1940"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N319a",
+    "name": "日産 セフィーロ クルージング（パープリッシュシルバー）90年式",
+    "releaseDate": "2024年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329121&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1903"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N336b",
+    "name": "スバル インプレッサ WRX STi（銀）2003年式",
+    "releaseDate": "2025年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736334460&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2002"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N356c",
+    "name": "トヨタ セルシオ C仕様 10th Anniversary Edition（白）",
+    "releaseDate": "2026年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340072&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2117"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N356d",
+    "name": "トヨタ セルシオ B仕様 eRバージョン10th Anniversary Edition（銀）",
+    "releaseDate": "2026年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340089&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2116"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N374a",
+    "name": "ニッサン トラック キングキャブ（ブルーミスト）北米仕様",
+    "releaseDate": "2026年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339359&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2108"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N379a",
+    "name": "日産 PAO（アクアグレー）1989年式",
+    "releaseDate": "2026年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340027&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2129"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N379b",
+    "name": "日産 PAO（テラコッタ）1989年式",
+    "releaseDate": "2026年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340034&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2130"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N41a",
+    "name": "フェアレディZ 2by2（白）74年式",
+    "releaseDate": "2010年10月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736225133&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=554"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N81b",
+    "name": "アウディ80 2.0E ヨーロッパ(赤)",
+    "releaseDate": "2013年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736250975&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=488"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N99a",
+    "name": "トヨタ タウンエースワゴン1800 カスタムエクストラ（黒）",
+    "releaseDate": "2015年2月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736274872&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=447"
   }
 ]
