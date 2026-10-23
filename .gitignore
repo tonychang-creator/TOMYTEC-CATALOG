@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.vite/
+__pycache__/
+*.py[cod]
+tomytec_data_test.json
