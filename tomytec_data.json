@@ -85,7 +85,8 @@
     "name": "ディーノ 246 GTS(赤)",
     "releaseDate": "2019年3月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736292456&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1216"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1216",
+    "collectionStatus": "owned"
   },
   {
     "series": "Other",
@@ -1428,8 +1429,7 @@
     "name": "ディーノ 246 GT（1971）赤 Dino 246 GT（1971）Red",
     "releaseDate": "2026年5月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336662&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2049",
-    "collectionStatus": "owned"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2049"
   },
   {
     "series": "TLV",
@@ -12346,7 +12346,8 @@
     "name": "LV-N ランボルギーニ カウンタック LP400（黒） / LV-N Lamborghini Countach LP400（Black）",
     "releaseDate": "2025年7月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736329671&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1990"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1990",
+    "collectionStatus": "owned"
   },
   {
     "series": "Other",
