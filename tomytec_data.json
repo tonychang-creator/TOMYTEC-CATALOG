@@ -869,7 +869,8 @@
     "name": "LV-N 日産 スカイライン GT-R（R32）グループA プレーンカラー仕様（赤）",
     "releaseDate": "2025年2月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736331940&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1950"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1950",
+    "collectionStatus": "owned"
   },
   {
     "series": "Other",
@@ -1427,7 +1428,8 @@
     "name": "ディーノ 246 GT（1971）赤 Dino 246 GT（1971）Red",
     "releaseDate": "2026年5月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336662&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2049"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2049",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV",
@@ -2667,7 +2669,8 @@
     "name": "アルファロメオ GT1600 ジュニア（赤）",
     "releaseDate": "2024年12月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736333272&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1914"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1914",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV",
@@ -4923,7 +4926,8 @@
     "name": "ポルシェ911S（マルーン）",
     "releaseDate": "2021年7月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736312536&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1479"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1479",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV",
@@ -7707,7 +7711,8 @@
     "name": "ホンダ シビック25X・S-リミテッド（赤メタリック）",
     "releaseDate": "2021年5月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736314868&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1466"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1466",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -9916,7 +9921,8 @@
     "name": "NISSAN GT-R Premium Edition T-spec 2024 model（ミッドナイトパープル）",
     "releaseDate": "2024年8月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736331148&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1877"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1877",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10396,7 +10402,8 @@
     "name": "ホンダ NSX（パールホワイト）98年式",
     "releaseDate": "2025年5月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736333722&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1970"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1970",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
@@ -10680,8 +10687,7 @@
     "name": "レクサス LFA（黄）",
     "releaseDate": "2027年1月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339717&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2168",
-    "collectionStatus": "owned"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2168"
   },
   {
     "series": "TLV NEO",
@@ -10689,7 +10695,8 @@
     "name": "レクサス LFA ニュルブルクリンクパッケージ（オレンジ）",
     "releaseDate": "2026年4月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736337850&num=1",
-    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2070"
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2070",
+    "collectionStatus": "owned"
   },
   {
     "series": "TLV NEO",
