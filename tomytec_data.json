@@ -12735,5 +12735,133 @@
     "releaseDate": "2015年2月",
     "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736274872&num=1",
     "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=447"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N ランボルギーニ カウンタック 25th アニバーサリー（赤） / LV-N Lamborghini 25th Anniversary（Red）",
+    "releaseDate": "2022年5月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736318392&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1577"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "ジオコレ64 #カースナップ14a BBQ2（トヨタ ハイラックス 4WD 付属）",
+    "releaseDate": "2022年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736321576&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1615"
+  },
+  {
+    "series": "Other",
+    "modelNumber": "",
+    "name": "LV-N トミカ スカイライン スーパーシルエット（82年仕様）",
+    "releaseDate": "2022年12月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736324300&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1664"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV",
+    "name": "ジャガー Eタイプ 4.2 クーペ（赤）",
+    "releaseDate": "2027年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339618&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2206"
+  },
+  {
+    "series": "TLV",
+    "modelNumber": "LV",
+    "name": "ジャガー Eタイプ 4.2 ロードスター（白）",
+    "releaseDate": "2027年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339632&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2207"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N146a",
+    "name": "ホンダ プレリュード2.0Si（白）",
+    "releaseDate": "2017年5月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736281757&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=370"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N148e",
+    "name": "NISSAN GT-R Premium edition（グレー）",
+    "releaseDate": "2019年6月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736303404&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1233"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N162b",
+    "name": "日野レンジャーKL545（緑） HINO RANGER KL545 (Green)",
+    "releaseDate": "2018年7月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736288992&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1131"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N267f",
+    "name": "マツダ RX-7 スピリットR タイプA（赤）2002年式",
+    "releaseDate": "2027年5月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736342694&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2204"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N267g",
+    "name": "マツダ RX-7 スピリットR タイプA（青）2002年式",
+    "releaseDate": "2027年5月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736342687&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2205"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N307a",
+    "name": "日産 セドリックワゴン 東京無線タクシー",
+    "releaseDate": "2024年1月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736325260&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1803"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N356e",
+    "name": "トヨタ セルシオ C仕様（紺／グレー）97年式",
+    "releaseDate": "2027年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336136&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2202"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N356f",
+    "name": "トヨタ セルシオ C仕様（薄紫／グレー）97年式",
+    "releaseDate": "2027年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736336143&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2203"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N392a",
+    "name": "マツダ ルーチェ ハードトップ GSII（緑）72年式",
+    "releaseDate": "2027年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340348&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2200"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N392b",
+    "name": "マツダ ルーチェ ハードトップ GSII（茶）72年式",
+    "releaseDate": "2027年4月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340355&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2201"
+  },
+  {
+    "series": "TLV NEO",
+    "modelNumber": "LV-N69c",
+    "name": "トヨタ コロナ ハードトップ 1800GT-TR（ワイン／グレー）84年式",
+    "releaseDate": "2026年8月",
+    "imageUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736339328&num=1",
+    "productUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2115"
   }
 ]
